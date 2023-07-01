@@ -3,7 +3,9 @@ Arduino shield for DIY dynos, engine monitoring &amp; more.
 Designed for monitoring & logging key aspects of an internal combustion engine for the purpose of R&D for my own Engine Management system. 
 Aims to be the natural successor for the "Ardyno" shield https://ardyno.weebly.com/ with more input options & logging.  
 
-# Goals:
+Basically, it uses the Arduino's two interrupts to accuately record one or two channels of engine cycle events.  
+While the original Ardyno would use one signal from an inertia drum roller & one signal from the ignition system, this ArdynoMon can alternatively be used to get both signals from different parts of the ignition system.  
+
 ## 1.) updates from Ardyno Rev1  
 	- drop A4 & A5 reducing on-board analogue inputs from 6 to 4.  
 	+ frees I2C to go with UART & SPI  
