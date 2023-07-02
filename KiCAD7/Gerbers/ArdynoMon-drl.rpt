@@ -1,0 +1,26 @@
+Drill report for ArdynoMon.kicad_pcb
+Created on Tuesday, 27 June 2023 at 20:57:35
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'ArdynoMon.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (62 holes)
+    T2  0.750mm  0.0295"  (4 holes)
+    T3  0.800mm  0.0315"  (19 holes)
+    T4  1.000mm  0.0394"  (95 holes)
+
+    Total plated holes count 180
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T5  3.200mm  0.1260"  (4 holes)
+
+    Total unplated holes count 4
