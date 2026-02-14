@@ -7,9 +7,9 @@ Basically, it uses the Arduino's two interrupts to accuately record one or two c
 While the original Ardyno would use one signal from an inertia drum roller & one signal from the ignition system, this ArdynoMon can alternatively be used to get both signals from different parts of the ignition system.  
 
 # 2023-02-14 Revision 3.6 addresses all know issues.
-    After some external interest (thank you) I've been nudged into refreshing this page.
-    Amusingly, I have recently used it to check th timing of a minimal EVSE (EV charger) I've built.
-
+    After some external interest (thank you) I've been nudged into refreshing this page.  
+	I still get a bit lost with KiCAD files so if I've missoed one from the upload, leet me know.  
+    Amusingly, I have recently used it to check th timing of a minimal EVSE (EV charger) I've built.  
 
 # 2023-07-31 Don't use this version.
     Significant updated coming shortly to address the following issues with this version:  
