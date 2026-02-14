@@ -6,8 +6,13 @@ Aims to be the natural successor for the "Ardyno" shield https://ardyno.weebly.c
 Basically, it uses the Arduino's two interrupts to accuately record one or two channels of engine cycle events.  
 While the original Ardyno would use one signal from an inertia drum roller & one signal from the ignition system, this ArdynoMon can alternatively be used to get both signals from different parts of the ignition system.  
 
+# 2023-02-14 Revision 3.6 addresses all know issues.
+    After some external interest (thank you) I've been nudged into refreshing this page.
+    Amusingly, I have recently used it to check th timing of a minimal EVSE (EV charger) I've built.
+
+
 # 2023-07-31 Don't use this version.
-Significant updated coming shortly to address the following issues with this version:  
+    Significant updated coming shortly to address the following issues with this version:  
 	I accepted a subtitution of the transistors without realising that they have a different pinout.  
  	The RX going through the level shifter prevents in-situ programming.  
   	Better to choose the regulator on the Arduino *OR* the one on ArdynoMon shield, but not both!  
@@ -16,7 +21,7 @@ Significant updated coming shortly to address the following issues with this ver
 ## 1.) updates from Ardyno Rev1  
 	- drop A4 & A5 reducing on-board analogue inputs from 6 to 4.  
 	+ frees I2C to go with UART & SPI  
-	+ accept 1-wire digital temperature sensors (both 5V & 3.3V)  
+	+ accept 1-wire digital temperature sensors (both 5V & 3.3V) bus powered or not  
 	+ accept trigger from coil primary. Option for lo-V (5-12V COP) or hi-V (400V CDI/IDI)  
 	+ accept trigger from 12V (& 5V) Hall effect sensors with suitable protection. Rising or Falling edge    
 	+ option for VR conditioner / Opto-isolator plug-in board  
@@ -54,5 +59,6 @@ Monitor the ignition trigger pick-up & the coil to capture the advance/retard cu
 Monitor the coil primary to capture the dwell time variation of an induction (IDI) system.  
 Monitor the RPM & drive an LED ring for rev-counter with MOSFET for rev-limmiter or auto-shift.  
 Add supplimental injection system: N2O, H2O etc.  
+
 
 
