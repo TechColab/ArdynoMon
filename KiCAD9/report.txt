@@ -1,0 +1,7 @@
+Plotted to '/media/phill/Data/Documents/kicad/ArdynoMon/Gerbers/ArdynoMon-F_Cu.gbr'.
+Plotted to '/media/phill/Data/Documents/kicad/ArdynoMon/Gerbers/ArdynoMon-B_Cu.gbr'.
+Plotted to '/media/phill/Data/Documents/kicad/ArdynoMon/Gerbers/ArdynoMon-F_Silkscreen.gbr'.
+Plotted to '/media/phill/Data/Documents/kicad/ArdynoMon/Gerbers/ArdynoMon-B_Silkscreen.gbr'.
+Created Gerber job file '/media/phill/Data/Documents/kicad/ArdynoMon/Gerbers/ArdynoMon-job.gbrjob'.
+Info: Done.
+Info: Done.
